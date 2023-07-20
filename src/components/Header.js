@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React, {useState } from 'react'
 import { Link } from 'react-router-dom';
 import logoPNG from '../assets/logo-png.png'
 import '../css/main.css'
-import { motion } from 'framer-motion';
 
 function Header() {
   const [showIcon, setShowIcon] = useState(true)
@@ -24,7 +23,7 @@ function Header() {
 
   return (
     <>
-      <nav className='w-full mx-auto flex flex-row sticky top-0 z-50 bg-white shadow-md md:justify-between px-3 h-20'>
+      <nav className='w-full mx-auto flex flex-row sticky top-0 z-1 bg-white shadow-md md:justify-between px-3 h-20'>
         <div className='mx-7 my-4'>
            <a href="/"><img src={logoPNG} alt="Logo" className='w-sm h-15 md:w-md h-12' /></a> 
         </div>
@@ -45,7 +44,7 @@ function Header() {
 
        {/* Manu on small screens */}
          
-        <div className={`md:hidden w-36 mt-1 ${classHidden} border p-5 right-1 absolute bg-white`}>
+        <div className={`md:hidden w-36 fixed mt-1 ${classHidden} border p-5 right-1 absolute bg-white`}>
           <ul className='flex flex-col gap-2 text-lg font-semibold divide-y-2'>
           <div className='flex gap-3'>
             <i className='fa fa-home mt-1'></i>

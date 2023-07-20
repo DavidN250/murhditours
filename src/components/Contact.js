@@ -1,11 +1,10 @@
 import { useState } from "react"
-import Sectionbreak from '../components/Sectionbreak'
 
 function Contact() {
   const [name, setName] = useState('') // useState to store  Name
   const [email, setEmail] = useState('') // useState to store Email address
   const [message, setMessage] = useState('') // useState to store Message address
-  const [error, setError] = useState(false)
+  const [error,] = useState(false)
   return (
    <div className='flex flex-col md:flex-row justify-between gap-8 container mx-auto bg-white'>
             <div className='flex-1 p-5 '>

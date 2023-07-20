@@ -1,11 +1,6 @@
 import React from 'react'
-import { Carousel, Typography, Button } from "@material-tailwind/react";
-import hero_image from '../assets/hero.png'
-import image3 from '../assets/destinations/IMG-20230205-WA0007.jpg';
 import '../css/main.css'
 import { motion } from 'framer-motion'
-import CarouselContainer from './CarouselContainer';
-const transition = {type:'spring',duration:3}
 
 
 function Hero() {
@@ -17,8 +12,8 @@ function Hero() {
         transition={{duration:3,type:'tween'}}
          whileInView={{y:0}}
         >
-          <h1 className='text-center text-5xl font-bold text-white'>EXPLORE CENTRAL AFRICA’S <br /> BEST KEPT SECRET MARVELS</h1>
-          <h1 className='text-center text-2xl font-bold uppercase text-gray-400'>Your tour guide for Rwanda, DRC, and Burundi</h1>
+          <h1 className='text-center text-2xl md:text-5xl font-bold text-white'>EXPLORE CENTRAL AFRICA’S <br /> BEST KEPT SECRET MARVELS</h1>
+          <h1 className='text-center text-lg font-bold uppercase text-gray-400'>Your tour guide for Rwanda, DRC, and Burundi</h1>
        </motion.div>
         <motion.div className=' place-content-center mx-auto'
         initial={{x:-200}}

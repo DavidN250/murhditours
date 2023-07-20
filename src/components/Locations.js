@@ -1,11 +1,6 @@
-import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 
 function Locations() {
-  const [name, setName] = useState('') // useState to store  Name
-  const [email, setEmail] = useState('') // useState to store Email address
-  const [message, setMessage] = useState('') // useState to store Message address
-  const [error, setError] = useState(false)
   return (
     <div className='container mx-auto border bg-yellow-600 flex flex-col justify-between p-5'>
        <div className='flex flex-col md:flex-row'>
