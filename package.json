@@ -1,7 +1,7 @@
 {
   "name": "front-end",
   "version": "0.1.0",
-  "homepage": "https://planktonx.com/murhditours-demo",
+  "homepage": "https://main--cute-frangipane-6aeb8b.netlify.app/",
   "private": true,
   "dependencies": {
     "@material-tailwind/react": "^2.0.6",
