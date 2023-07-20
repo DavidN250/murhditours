@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/murhditours/static/css/main.f7019ae7.css",
-    "main.js": "/murhditours/static/js/main.00383914.js",
+    "main.js": "/murhditours/static/js/main.4c67e85b.js",
     "static/js/787.22edae46.chunk.js": "/murhditours/static/js/787.22edae46.chunk.js",
     "static/media/bg-hero.jpg": "/murhditours/static/media/bg-hero.a185f1b157f098222c9e.jpg",
     "static/media/IMG-3477.jpg": "/murhditours/static/media/IMG-3477.fba3e398367e4284994a.jpg",
@@ -23,11 +23,11 @@
     "static/media/RDB_logo.png": "/murhditours/static/media/RDB_logo.143df4a3b04b7167ebe8.png",
     "index.html": "/murhditours/index.html",
     "main.f7019ae7.css.map": "/murhditours/static/css/main.f7019ae7.css.map",
-    "main.00383914.js.map": "/murhditours/static/js/main.00383914.js.map",
+    "main.4c67e85b.js.map": "/murhditours/static/js/main.4c67e85b.js.map",
     "787.22edae46.chunk.js.map": "/murhditours/static/js/787.22edae46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f7019ae7.css",
-    "static/js/main.00383914.js"
+    "static/js/main.4c67e85b.js"
   ]
 }
