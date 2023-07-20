@@ -1,8 +1,5 @@
 import { useState } from "react"
 import Sectionbreak from '../components/Sectionbreak'
-import RwandaFlag from '../assets/rw-flag.png'
-import BurundiFlag from '../assets/bu-flag.png'
-import DRCFlag from '../assets/drc-flag.png'
 
 function Contact() {
   const [name, setName] = useState('') // useState to store  Name
