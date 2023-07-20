@@ -11,7 +11,6 @@ function Home() {
   return (
     <div>
      <Hero/>
-     {/* <Stats/> */}
      <About/>
      <Sectionbreak title='Our Team' subtitle='Meet the team behind all of our incomparable services'/> 
      <Team/>
