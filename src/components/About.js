@@ -1,5 +1,5 @@
 import React from 'react'
-import about from '../assets/about.png'
+import about from '../assets/about.jpg'
 import '../css/main.css'
 import Sectionbreak from './Sectionbreak'
 import { motion } from 'framer-motion'

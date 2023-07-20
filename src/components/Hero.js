@@ -26,7 +26,7 @@ function Hero() {
         whileInView={{x:0}}
         whileHover={{scale:1.2}}
         >
-          <button className='p-2 px-4 rounded-full font-bold bg-yellow-600 text-white uppercase text-2xl'>Discover now</button>
+          <button className='p-2 px-4 rounded-full font-semibold bg-yellow-600 text-white uppercase text-2xl'>Discover now</button>
         </motion.div>
       </div>
     </>

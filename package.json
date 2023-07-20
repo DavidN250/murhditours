@@ -1,7 +1,7 @@
 {
   "name": "front-end",
   "version": "0.1.0",
-  "homepage": "https://murhditoursdemo.github.io/",
+  "homepage": " https://davidn250.github.io/murhditours/",
   "private": true,
   "dependencies": {
     "@material-tailwind/react": "^2.0.6",
