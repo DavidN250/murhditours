@@ -6,9 +6,9 @@ function Packages() {
     <div className='container mx-auto mt-5 p-5 md:grid grid-cols-3 gap-4 my-3 flex flex-col'>
     {packages.map((pack,index)=>(
         <motion.div 
-          initial={{x:-100}}
+          initial={{y:50}}
           transition={{duration:2,type:'tween'}}
-          whileInView={{x:0}} 
+          whileInView={{y:0}} 
           whileHover={{scale:1.2,zIndex:1}}
           key={index} className='border shadow-sm border-yellow-500 text-center flex flex-col gap-3 justify-between hover:bg-gradient-to-r hover:from-green-800 hover:to-green-500 hover:cursor-pointer'>
         <h1 className='text-2xl font-bold my-4'>{pack.title} </h1>

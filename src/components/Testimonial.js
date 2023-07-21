@@ -11,9 +11,9 @@ function Testimonial() {
       {testimonials.map((testimonial,index)=>(
         <div key={index}>
         <motion.div 
-            initial={{x:100}}
+            initial={{y:50}}
             transition={{duration:3,type:'tween'}}
-            whileInView={{x:0}} 
+            whileInView={{y:0}} 
          className={`bg-yellow-50 p-4 pl-6 border-2 border-yellow-500 flex flex-col h-auto shadow-md rounded-lg`}>
               <div className='h-auto'>
                 <p className='text-lg md:my-4 pb-12'>{testimonial.testimonial}</p>
@@ -24,18 +24,18 @@ function Testimonial() {
                 <i className='fab fa-linkedin cursor-pointer'></i>
               </div>
               <motion.div
-               initial={{x:-100}}
+               initial={{y:50}}
                transition={{duration:3,type:'tween'}}
-               whileInView={{x:0}} 
+               whileInView={{y:0}} 
                className='flex justify-center -mb-14'>
                 <img className='rounded-full  w-20 h-20 border-4 border-yellow-500' src={testimonial.image} alt="" />
               </motion.div>
               
           </motion.div>
           <motion.div
-           initial={{x:-100}}
+           initial={{y:50}}
            transition={{duration:3,type:'tween'}}
-           whileInView={{x:0}} 
+           whileInView={{y:0}} 
            className='flex flex-col text-center justify-center mt-10'>
             <span>{testimonial.name} </span>
             <span className='md:text-lg font-bold text-center'>{testimonial.designation} from {testimonial.company}  </span>

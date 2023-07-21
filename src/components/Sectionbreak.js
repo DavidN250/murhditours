@@ -7,14 +7,14 @@ function Sectionbreak(props) {
        
       >
            <motion.h1 
-           initial={{x:-200,opacity:0.2}}
+           initial={{y:20,opacity:0.2}}
        transition={{duration:3,type:'spring'}}
-       whileInView={{opacity:1,x:0}}
+       whileInView={{opacity:1,y:0}}
            className='uppercase text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-900 to-green-300'>{props.title}</motion.h1>
            <motion.p 
-           initial={{x:-200,opacity:0.2}}
+           initial={{y:20,opacity:0.2}}
        transition={{duration:3,type:'spring'}}
-       whileInView={{opacity:1,x:0}}
+       whileInView={{opacity:1,y:0}}
            className='text-lg text-gray-400 text-center'>{props.subtitle}</motion.p>
       </div>
     </>

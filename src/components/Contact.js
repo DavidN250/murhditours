@@ -31,7 +31,7 @@ function Contact() {
                           {error&&message.length<=0?
                           <label className='text-red-500 font-semibold'>Message can't be Empty</label>:""}
                       </div>
-                       <button type='submit' className='border text-black w-[30%] rounded-md text-center text-lg font-bold uppercase p-2 hover:bg-yellow-600 hover:text-white '> Send a message</button>
+                       <button type='submit' className='border text-black md:selection:w-[30%] rounded-md text-center text-lg font-bold uppercase p-2 hover:bg-yellow-600 hover:text-white '> Send a message</button>
                   </form>
                 </div>
               </div>

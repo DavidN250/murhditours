@@ -16,7 +16,7 @@ function Destination() {
            transition={{duration:3}}
            whileInView={{scale:1}} 
           className="relative pb-48 overflow-hidden">
-            <img className="absolute inset-0 h-full w-full object-cover" src={destination.image} alt={destination.title} />
+            <img className="absolute z-[0] h-full w-full object-cover" src={destination.image} alt={destination.title} />
           </motion.div>
           <div className="p-4 h-72 flex flex-col justify-between">
             <span className={`inline-block px-2 py-1 font-semibold leading-none w-20 text-center ${destination.tag ==="Rwanda" ? 'bg-yellow-300 text-white': destination.tag ==="Burundi" ? 'bg-green-500 text-white': destination.tag ==="Congo" ? 'bg-red-600 text-white': null}  rounded-full font-semibold uppercase tracking-wide text-xs`}>{destination.tag}</span>

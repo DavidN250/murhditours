@@ -8,9 +8,9 @@ function About() {
   return (
     <div id='about' className='px-5 pt-11 flex gap-6 container mx-auto flex-col md:flex-row'>
       <motion.div 
-       initial={{x:-200,opacity:0.2}}
+       initial={{y:20,opacity:0.2}}
        transition={{duration:3,type:'spring'}}
-       whileInView={{opacity:1,x:0}}
+       whileInView={{opacity:1,y:0}}
        whileHover={{scale:1.05,cursor:'pointer'}}
        className="flex-1 content-center justify-center pb-3 items-center flex md:mt-0 mt-7">
         <img className='mt-10 md:mt-0 w-full h-full' src={about} alt=""/>
